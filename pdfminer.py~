@@ -1,0 +1,39 @@
+# PDFMiner
+
+import pdfminer
+import os
+
+os.system(open("/home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer_text.txt", "w")
+pdf2txt.py -o /home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer_text.txt /home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer.pdf
+
+
+
+
+############################################
+file = "/home/andrew/Dropbox/python/wells/dr030113.pdf"
+
+## run from bash shell:
+open("home/andrew/Dropbox/python/wells/dr030113.html", "w")
+pdf2txt.py -o home/andrew/Dropbox/python/wells/dr030113.html /home/andrew/Dropbox/python/wells/dr030113.pdf
+
+open("/home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer_text.txt", "w")
+pdf2txt.py -o /home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer_text.txt /home/andrew/Dropbox/python/wells/dr030113.pdf
+
+
+open("/home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer.html", "w")
+pdf2txt.py -o /home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer.html /home/andrew/Dropbox/python/BeautifulSoup_pres/pdfs/Duelfer.pdf
+
+
+####
+
+pdf2txt.py -o output.txt /home/andrew/Dropbox/python/wells/dr030113.pdf
+pdf2txt.py -o output.html samples/naacl06-shinyama.pdf
+(extract text as an HTML file whose filename is output.html)
+ 
+$ pdf2txt.py -V -c euc-jp -o output.html samples/jo.pdf
+(extract a Japanese HTML file in vertical writing, CMap is required)
+ 
+$ pdf2txt.py -P mypassword -o output.txt secret.pdf
+(extract a text from an encrypted PDF file)
+
+
